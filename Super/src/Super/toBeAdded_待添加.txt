@@ -1,0 +1,119 @@
+
+
+
+//VS2012下X64平台嵌入汇编程序  //BSF找值为1的最专低bit //BSR找值为1的最高bit 直接用_BitScanReverse
+
+//为了调试方便本库若有全局单例,一定要在构造处打印
+
+//不同平台工程组织/编译,命令行编译等待续
+//MakeList.make file .configurate
+
+
+//正在进行大小端 bigint bigfloat int128/256
+//StackWalker跨平台封装与linux
+
+//ParallelFrame SequentialFrame并行加速 串行级联加速框架
+
+//class SyncEvent 
+//用最小堆去改造定时器。未完待续
+
+
+
+
+//MP3 WAV 
+
+
+//DIP库
+//yuv -rgb,ycbcr 互转,量化版,非量化版本实现。快速版本实现
+
+
+
+//xml解析工具的效率比较QDomDocument、TinyXml-2、RapidXml、PugiXml 
+//以上XML库彻底完善及其c++封装
+//Xerces XML解析器  XMLBooster解析器  LibXML解析器
+
+
+//待续备忘
+//SafeUrlBase64。完善与测试待续
+//base62 Base-122 Encoding
+
+
+template <typename T> -->template <class T> -->
+unsigned int->size_t;
+friend typename-->friend class;
+
+
+内存池:
+//进一步的改进思路:现在的内存是按照2次幂增长的2-4-8-16-32-64-128-256-512-1024-2048-4096-8192-
+//空间利用率有点低,可以在1K以上根据申请的大小分割成2,4份,
+//再用几个std::vector<MemChunk*> ListFree管理保存,同时Head在记住ListFree地址。方便直接释放
+//去size次高两位00,01,10,11,分别调用四个ListFree去申请/释放。
+
+
+将定时器功能加到网络框架+高精度定时器+卡住不追赶
+内存池完成之后是--写时拷贝-以便实现跨现场-高效消息队列
+
+
+//待添加
+//基础数据结构--提供哈希、链表、数组、队列、堆栈、最小最大堆等常用容器。--基础算法
+//智能指针auto_ptr、unique_ptr、shared_ptr、weak_ptr自己实现一遍
+
+
+//跨平台 线程消息队  列消息队列
+//跨平台共享内存 --进程间命名互斥量 信号量   
+//内存池 定长--简单--高效
+//跨平台 进程间消息队列 //读写锁 原子操作
+//跨平台 信号量 条件变量
+//UUID--未完
+//压缩算法--无损 LZW LZ77 霍夫曼--
+//有损压缩，音频有损 
+//图片压缩 JPG JP2K PNG BMP 
+//万能图片文件读取。保存
+//加密算法--RSA-DES-3DES--AES--sha
+//XML json解析
+//share_ptr weak_ptr unique_ptr自己实现
+//sqlite3 zlib  单元测试
+
+
+
+
+//参考 轻量级的跨平台c开发库：TBOX  
+#if 0
+容器库
+提供哈希、链表、数组、队列、堆栈、最小最大堆等常用容器。
+支持各种常用成员类型，在原有的容器期初上，其成员类型还可以完全自定义扩展。
+所有容器都支持迭代器操作。
+大部分容器都可以支持基于stream的序列化和反序列化操作。
+
+算法库
+提供各种排序算法：冒泡排序、堆排序、快速排序、插入排序。
+提供各种查找算法：线性遍历、二分法搜索。
+提供各种遍历、删除、统计算法。
+以迭代器为接口，实现算法和容器的分离，类似stl，但是c实现的，更加轻量。
+压缩库
+支持zlib/zlibraw/gzip的压缩与解压（需要第三方zlib库支持）。
+字符编码库
+支持utf8、utf16、gbk、gb2312、uc2、uc4 之间的互相转码，并且支持大小端格式。
+实用工具库
+提供base64/32编解码、crc32、md5、sha等hash算法、日志输出、断言、url编解码
+平台库
+提供file、directory、socket、thread、time等常用系统接口
+提供atomic、atomic64接口
+提供高精度、低精度定时器
+提供高性能的线程池操作
+提供event、mutex、semaphore、spinlock等事件、互斥、信号量、自旋锁操作
+提供获取函数堆栈信息的接口，方便调试和错误定位
+提供跨平台动态库加载接口（如果系统支持的话）
+提供io轮询器，针对epoll, poll, select, kqueue进行跨平台封装
+提供跨平台上下文切换接口，主要用于协程实现，切换效率非常高
+
+#endif
+
+
+
+
+
+
+
+//已经添加--待续
+//MD5 CRC32 CRC16 

@@ -1,0 +1,6 @@
+#include "BsaeType.h"
+
+
+NAME_SPACE_MAIN_BEGIN
+
+NAME_SPACE_MAIN_END

@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4EC3A922-0466-4A5E-A5DC-7D324BB935CC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SuperLibrary</RootNamespace>
+    <ProjectName>Super</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)lib\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>C:\VS2012Temp\$(SolutionName)\$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>C:\VS2012Temp\$(SolutionName)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./src/Super;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./src/Super;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./src/Super;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./Super;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/arch:AVX %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="Super\toBeAdded_待添加.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Any.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Super\A_Test.cpp" />
+    <ClCompile Include="Super\Basic\8bigInt.cpp" />
+    <ClCompile Include="Super\Basic\Allocator.cpp" />
+    <ClCompile Include="Super\Basic\AudioCodec.cpp" />
+    <ClCompile Include="Super\Basic\AudioHelper.cpp" />
+    <ClCompile Include="Super\Basic\A_NewClassTemplate.cpp" />
+    <ClCompile Include="Super\Basic\BER.cpp" />
+    <ClCompile Include="Super\Basic\BigFloat.cpp" />
+    <ClCompile Include="Super\Basic\Base64.cpp" />
+    <ClCompile Include="Super\Basic\BasicOperation.cpp" />
+    <ClCompile Include="Super\Basic\BigInt.cpp" />
+    <ClCompile Include="Super\Basic\BitIO.cpp" />
+    <ClCompile Include="Super\Basic\BsaeType.cpp" />
+    <ClCompile Include="Super\Basic\ByteArray.cpp" />
+    <ClCompile Include="Super\Basic\ConfigFile.cpp" />
+    <ClCompile Include="Super\Basic\FastList.cpp" />
+    <ClCompile Include="Super\Basic\FastMap.cpp" />
+    <ClCompile Include="Super\Basic\FastString.cpp" />
+    <ClCompile Include="Super\Basic\FastVector.cpp" />
+    <ClCompile Include="Super\Basic\FIFO.cpp" />
+    <ClCompile Include="Super\Basic\FileCopy.cpp" />
+    <ClCompile Include="Super\Basic\global.cpp" />
+    <ClCompile Include="Super\Basic\Int128.cpp" />
+    <ClCompile Include="Super\Basic\Int24.cpp" />
+    <ClCompile Include="Super\Basic\IPAddress.cpp" />
+    <ClCompile Include="Super\Basic\Log.cpp" />
+    <ClCompile Include="Super\Basic\Math.cpp" />
+    <ClCompile Include="Super\Basic\MediaTimer.cpp" />
+    <ClCompile Include="Super\Basic\Mem.cpp" />
+    <ClCompile Include="Super\Basic\MemAlloc.cpp" />
+    <ClCompile Include="Super\Basic\MemoryPool.cpp" />
+    <ClCompile Include="Super\Basic\MemPoolFast.cpp" />
+    <ClCompile Include="Super\Basic\MessageQueue.cpp" />
+    <ClCompile Include="Super\Basic\MyCLib.cpp" />
+    <ClCompile Include="Super\Basic\NetStream.cpp" />
+    <ClCompile Include="Super\Basic\Noise.cpp" />
+    <ClCompile Include="Super\Basic\PerformanceTest.cpp" />
+    <ClCompile Include="Super\Basic\PID.cpp" />
+    <ClCompile Include="Super\Basic\ProcessGuard.cpp" />
+    <ClCompile Include="Super\Basic\Rand.cpp" />
+    <ClCompile Include="Super\Basic\RapidXML_Test.cpp" />
+    <ClCompile Include="Super\Basic\RefCount.cpp" />
+    <ClCompile Include="Super\Basic\Reflection.cpp" />
+    <ClCompile Include="Super\Basic\ScopedPointer.cpp" />
+    <ClCompile Include="Super\Basic\ScopedValueRollback.cpp" />
+    <ClCompile Include="Super\Basic\ScopeGuard.cpp" />
+    <ClCompile Include="Super\Basic\SharedData.cpp" />
+    <ClCompile Include="Super\Basic\ShareMemory.cpp" />
+    <ClCompile Include="Super\Basic\SIMD.cpp" />
+    <ClCompile Include="Super\Basic\Singleton.cpp" />
+    <ClCompile Include="Super\Basic\SmartPointer.cpp" />
+    <ClCompile Include="Super\Basic\SP_uuid.cpp" />
+    <ClCompile Include="Super\Basic\SString.cpp" />
+    <ClCompile Include="Super\Basic\SuperSocket.cpp" />
+    <ClCompile Include="Super\Basic\SuperTime.cpp" />
+    <ClCompile Include="Super\Basic\SystemCtrl.cpp" />
+    <ClCompile Include="Super\Basic\Temp.cpp" />
+    <ClCompile Include="Super\Basic\Test_Basic.cpp" />
+    <ClCompile Include="Super\Basic\Thread.cpp" />
+    <ClCompile Include="Super\Basic\ThreadEx.cpp" />
+    <ClCompile Include="Super\Basic\ThreadSync.cpp" />
+    <ClCompile Include="Super\Basic\Timer.cpp" />
+    <ClCompile Include="Super\Basic\TinyStr.cpp" />
+    <ClCompile Include="Super\Basic\TinyXML.cpp" />
+    <ClCompile Include="Super\Basic\TinyXML2.cpp" />
+    <ClCompile Include="Super\Basic\TinyXML2_Test.cpp" />
+    <ClCompile Include="Super\Basic\Tools.cpp" />
+    <ClCompile Include="Super\Basic\Trains.cpp" />
+    <ClCompile Include="Super\Basic\Tstring.cpp" />
+    <ClCompile Include="Super\DataStruct\Array.cpp" />
+    <ClCompile Include="Super\DataStruct\AVLTree.cpp" />
+    <ClCompile Include="Super\DataStruct\BinarySearchTree.cpp" />
+    <ClCompile Include="Super\DataStruct\BPlusTree.cpp" />
+    <ClCompile Include="Super\DataStruct\Btree.cpp" />
+    <ClCompile Include="Super\DataStruct\B_tree.cpp" />
+    <ClCompile Include="Super\DataStruct\Map.cpp" />
+    <ClCompile Include="Super\DataStruct\Czip.cpp" />
+    <ClCompile Include="Super\DataStruct\DES.cpp" />
+    <ClCompile Include="Super\DataStruct\Graph.cpp" />
+    <ClCompile Include="Super\DataStruct\Hash.cpp" />
+    <ClCompile Include="Super\DataStruct\Heap.cpp" />
+    <ClCompile Include="Super\DataStruct\Huffman.cpp" />
+    <ClCompile Include="Super\DataStruct\List.cpp" />
+    <ClCompile Include="Super\DataStruct\local_string.cpp" />
+    <ClCompile Include="Super\DataStruct\LZ77.cpp" />
+    <ClCompile Include="Super\DataStruct\LZW.cpp" />
+    <ClCompile Include="Super\DataStruct\NormalTree.cpp" />
+    <ClCompile Include="Super\DataStruct\NormalTree2.cpp" />
+    <ClCompile Include="Super\DataStruct\ObjectCount.cpp" />
+    <ClCompile Include="Super\DataStruct\Queue.cpp" />
+    <ClCompile Include="Super\DataStruct\RedBlacktree.cpp" />
+    <ClCompile Include="Super\DataStruct\RSA.cpp" />
+    <ClCompile Include="Super\DataStruct\Search.cpp" />
+    <ClCompile Include="Super\DataStruct\Sort.cpp" />
+    <ClCompile Include="Super\DataStruct\SplayTree.cpp" />
+    <ClCompile Include="Super\DataStruct\Stack.cpp" />
+    <ClCompile Include="Super\DataStruct\StaticList.cpp" />
+    <ClCompile Include="Super\DataStruct\StringPatternMatch.cpp" />
+    <ClCompile Include="Super\DataStruct\ThreadTree.cpp" />
+    <ClCompile Include="Super\DataStruct\Tree.cpp" />
+    <ClCompile Include="Super\DataStruct\TrieTree.cpp" />
+    <ClCompile Include="Super\DataStruct\Vector.cpp" />
+    <ClCompile Include="Super\Frame\ParallelFrame.cpp" />
+    <ClCompile Include="Super\Frame\SequentialFrame.cpp" />
+    <ClCompile Include="Super\Frame\ThreadFrame_Test.cpp" />
+    <ClCompile Include="Super\Frame\ThreadPool.cpp" />
+    <ClCompile Include="Super\Frame\ThreadPoolBase.cpp" />
+    <ClCompile Include="Super\Frame\ThreadSafeQueue.cpp" />
+    <ClCompile Include="Super\Net\NetServerBase.cpp" />
+    <ClCompile Include="Super\Net\TcpClientBase.cpp" />
+    <ClCompile Include="Super\Net\TcpServerBase.cpp" />
+    <ClCompile Include="Super\Net\TcpServerByEPOLL.cpp" />
+    <ClCompile Include="Super\Net\TcpServerByIOCP.cpp" />
+    <ClCompile Include="Super\Net\TcpServerByMultiThread.cpp" />
+    <ClCompile Include="Super\Net\TcpServerBySelect.cpp" />
+    <ClCompile Include="Super\Net\ThreadClientSocket.cpp" />
+    <ClCompile Include="Super\Net\zSocket.cpp" />
+    <ClCompile Include="Super\Temp\Atomic.cpp" />
+    <ClCompile Include="Super\Temp\bits.cpp" />
+    <ClCompile Include="Super\Temp\epoll.cc" />
+    <ClCompile Include="Super\Temp\inplace.cc" />
+    <ClCompile Include="Super\Temp\nullptr.cpp" />
+    <ClCompile Include="Super\Temp\observer_test.cc" />
+    <ClCompile Include="Super\Temp\optional.cc" />
+    <ClCompile Include="Super\Temp\optional_test.cc" />
+    <ClCompile Include="Super\Temp\placement_test.cc" />
+    <ClCompile Include="Super\Temp\ref_counter_test.cc" />
+    <ClCompile Include="Super\Temp\safe_equal_test.cc" />
+    <ClCompile Include="Super\Temp\scoped_exit_test.cc" />
+    <ClCompile Include="Super\Temp\scoped_unref.cc" />
+    <ClCompile Include="Super\Temp\search_test.cc" />
+    <ClCompile Include="Super\Temp\unique_function_test.cc" />
+    <ClCompile Include="Super\Temp\unitest.cc" />
+    <ClCompile Include="Super\Tool\Color.cpp" />
+    <ClCompile Include="Super\Tool\Color_p.cpp" />
+    <ClCompile Include="Super\Tool\CopyFileByThread.cpp" />
+    <ClCompile Include="Super\Tool\Line.cpp" />
+    <ClCompile Include="Super\Tool\Margins.cpp" />
+    <ClCompile Include="Super\Tool\Point.cpp" />
+    <ClCompile Include="Super\Tool\Rect.cpp" />
+    <ClCompile Include="Super\Tool\SDL_PlayAV.cpp" />
+    <ClCompile Include="Super\Tool\Size.cpp" />
+    <ClCompile Include="Super\Tool\StackWalker.cpp" />
+    <ClCompile Include="Super\Tool\STLHelper.cpp" />
+    <ClCompile Include="Super\Tool\TimedTask.cpp" />
+    <ClCompile Include="Super\Tool\unzip.cpp" />
+    <ClCompile Include="Super\Tool\zip.cpp" />
+    <ClCompile Include="Super\Tool\ZipHelper.cpp" />
+    <ClCompile Include="Temp.cpp" />
+    <ClCompile Include="Variant.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Any.h" />
+    <ClInclude Include="Super\A_Test.h" />
+    <ClInclude Include="Super\Basic\8bigInt.h" />
+    <ClInclude Include="Super\Basic\Allocator.h" />
+    <ClInclude Include="Super\Basic\AudioCodec.h" />
+    <ClInclude Include="Super\Basic\AudioHelper.h" />
+    <ClInclude Include="Super\Basic\A_NewClassTemplate.h" />
+    <ClInclude Include="Super\Basic\BER.h" />
+    <ClInclude Include="Super\Basic\BigFloat.h" />
+    <ClInclude Include="Super\Basic\Base64.h" />
+    <ClInclude Include="Super\Basic\BasicOperation.h" />
+    <ClInclude Include="Super\Basic\BigInt.h" />
+    <ClInclude Include="Super\Basic\BigInteger.hpp" />
+    <ClInclude Include="Super\Basic\BitIO.h" />
+    <ClInclude Include="Super\Basic\BsaeType.h" />
+    <ClInclude Include="Super\Basic\ByteArray.h" />
+    <ClInclude Include="Super\Basic\ConfigFile.h" />
+    <ClInclude Include="Super\Basic\Console.h" />
+    <ClInclude Include="Super\Basic\define.h" />
+    <ClInclude Include="Super\Basic\Directory.h" />
+    <ClInclude Include="Super\Basic\double_integer.hpp" />
+    <ClInclude Include="Super\Basic\FastList.h" />
+    <ClInclude Include="Super\Basic\FastMap.h" />
+    <ClInclude Include="Super\Basic\FastString.h" />
+    <ClInclude Include="Super\Basic\FastVector.h" />
+    <ClInclude Include="Super\Basic\FIFO.h" />
+    <ClInclude Include="Super\Basic\File.h" />
+    <ClInclude Include="Super\Basic\FileCopy.h" />
+    <ClInclude Include="Super\Basic\global.h" />
+    <ClInclude Include="Super\Basic\Int128.h" />
+    <ClInclude Include="Super\Basic\int128.hpp" />
+    <ClInclude Include="Super\Basic\Int24.h" />
+    <ClInclude Include="Super\Basic\int256.hpp" />
+    <ClInclude Include="Super\Basic\int512.hpp" />
+    <ClInclude Include="Super\Basic\IPAddress.h" />
+    <ClInclude Include="Super\Basic\Log.h" />
+    <ClInclude Include="Super\Basic\Math.h" />
+    <ClInclude Include="Super\Basic\MediaTimer.h" />
+    <ClInclude Include="Super\Basic\Mem.h" />
+    <ClInclude Include="Super\Basic\MemAlloc.h" />
+    <ClInclude Include="Super\Basic\MemoryPool.h" />
+    <ClInclude Include="Super\Basic\MemPoolFast.h" />
+    <ClInclude Include="Super\Basic\MessageQueue.h" />
+    <ClInclude Include="Super\Basic\MyAutoPtr.h" />
+    <ClInclude Include="Super\Basic\MyCLib.h" />
+    <ClInclude Include="Super\Basic\NetStream.h" />
+    <ClInclude Include="Super\Basic\Noise.h" />
+    <ClInclude Include="Super\Basic\PerformanceTest.h" />
+    <ClInclude Include="Super\Basic\PID.h" />
+    <ClInclude Include="Super\Basic\ProcessGuard.h" />
+    <ClInclude Include="Super\Basic\Protocol.h" />
+    <ClInclude Include="Super\Basic\Rand.h" />
+    <ClInclude Include="Super\Basic\RapidXML.hpp" />
+    <ClInclude Include="Super\Basic\RapidXML_iterators.hpp" />
+    <ClInclude Include="Super\Basic\RapidXML_print.hpp" />
+    <ClInclude Include="Super\Basic\RapidXML_utils.hpp" />
+    <ClInclude Include="Super\Basic\RefCount.h" />
+    <ClInclude Include="Super\Basic\Reflection.h" />
+    <ClInclude Include="Super\Basic\ScopedPointer.h" />
+    <ClInclude Include="Super\Basic\ScopedValueRollback.h" />
+    <ClInclude Include="Super\Basic\ScopeGuard.h" />
+    <ClInclude Include="Super\Basic\SharedData.h" />
+    <ClInclude Include="Super\Basic\ShareMemory.h" />
+    <ClInclude Include="Super\Basic\ShareMemory.hpp" />
+    <ClInclude Include="Super\Basic\sigslot.h" />
+    <ClInclude Include="Super\Basic\SIMD.h" />
+    <ClInclude Include="Super\Basic\Singleton.h" />
+    <ClInclude Include="Super\Basic\SmartPointer.h" />
+    <ClInclude Include="Super\Basic\smart_ptr.h" />
+    <ClInclude Include="Super\Basic\SP_uuid.h" />
+    <ClInclude Include="Super\Basic\SString.h" />
+    <ClInclude Include="Super\Basic\StringConvert.h" />
+    <ClInclude Include="Super\Basic\SuperSocket.h" />
+    <ClInclude Include="Super\Basic\SuperTime.h" />
+    <ClInclude Include="Super\Basic\SystemCtrl.h" />
+    <ClInclude Include="Super\Basic\Temp.h" />
+    <ClInclude Include="Super\Basic\Test_Basic.h" />
+    <ClInclude Include="Super\Basic\Thread.h" />
+    <ClInclude Include="Super\Basic\ThreadEX.h" />
+    <ClInclude Include="Super\Basic\ThreadSync.h" />
+    <ClInclude Include="Super\Basic\ThreadSync.hpp" />
+    <ClInclude Include="Super\Basic\Timer.h" />
+    <ClInclude Include="Super\Basic\TinyStr.h" />
+    <ClInclude Include="Super\Basic\TinyXML.h" />
+    <ClInclude Include="Super\Basic\TinyXML2.h" />
+    <ClInclude Include="Super\Basic\Tools.h" />
+    <ClInclude Include="Super\Basic\Trains.h" />
+    <ClInclude Include="Super\Basic\Tstring.h" />
+    <ClInclude Include="Super\DataStruct\Array.h" />
+    <ClInclude Include="Super\DataStruct\AVLTree.h" />
+    <ClInclude Include="Super\DataStruct\BinarySearchTree.h" />
+    <ClInclude Include="Super\DataStruct\BPlusTree.h" />
+    <ClInclude Include="Super\DataStruct\Btree.h" />
+    <ClInclude Include="Super\DataStruct\B_tree.h" />
+    <ClInclude Include="Super\DataStruct\Map.h" />
+    <ClInclude Include="Super\DataStruct\Czip.h" />
+    <ClInclude Include="Super\DataStruct\DES.h" />
+    <ClInclude Include="Super\DataStruct\Graph.h" />
+    <ClInclude Include="Super\DataStruct\Hash.h" />
+    <ClInclude Include="Super\DataStruct\Heap.h" />
+    <ClInclude Include="Super\DataStruct\Huffman.h" />
+    <ClInclude Include="Super\DataStruct\List.h" />
+    <ClInclude Include="Super\DataStruct\local_string.h" />
+    <ClInclude Include="Super\DataStruct\LZ77.h" />
+    <ClInclude Include="Super\DataStruct\LZW.h" />
+    <ClInclude Include="Super\DataStruct\NormalTree.h" />
+    <ClInclude Include="Super\DataStruct\NormalTree2.h" />
+    <ClInclude Include="Super\DataStruct\ObjectCount.h" />
+    <ClInclude Include="Super\DataStruct\Queue.h" />
+    <ClInclude Include="Super\DataStruct\RedBlacktree.h" />
+    <ClInclude Include="Super\DataStruct\RSA.h" />
+    <ClInclude Include="Super\DataStruct\Search.h" />
+    <ClInclude Include="Super\DataStruct\Sort.h" />
+    <ClInclude Include="Super\DataStruct\SplayTree.h" />
+    <ClInclude Include="Super\DataStruct\Stack.h" />
+    <ClInclude Include="Super\DataStruct\StaticList.h" />
+    <ClInclude Include="Super\DataStruct\StringPatternMatch.h" />
+    <ClInclude Include="Super\DataStruct\ThreadTree.h" />
+    <ClInclude Include="Super\DataStruct\Tree.h" />
+    <ClInclude Include="Super\DataStruct\TrieTree.h" />
+    <ClInclude Include="Super\DataStruct\Vector.h" />
+    <ClInclude Include="Super\Frame\ParallelFrame.h" />
+    <ClInclude Include="Super\Frame\SequentialFrame.h" />
+    <ClInclude Include="Super\Frame\ThreadFrame_Test.h" />
+    <ClInclude Include="Super\Frame\ThreadPool.h" />
+    <ClInclude Include="Super\Frame\ThreadPoolBase.h" />
+    <ClInclude Include="Super\Frame\ThreadSafeQueue.h" />
+    <ClInclude Include="Super\Net\NetServerBase.h" />
+    <ClInclude Include="Super\Net\TcpClientBase.h" />
+    <ClInclude Include="Super\Net\TcpServerBase.h" />
+    <ClInclude Include="Super\Net\TcpServerByEPOLL.h" />
+    <ClInclude Include="Super\Net\TcpServerByIOCP.h" />
+    <ClInclude Include="Super\Net\TcpServerByMultiThread.h" />
+    <ClInclude Include="Super\Net\TcpServerBySelect.h" />
+    <ClInclude Include="Super\Net\ThreadClientSocket.h" />
+    <ClInclude Include="Super\Net\zSocket.h" />
+    <ClInclude Include="Super\Temp\Atomic.h" />
+    <ClInclude Include="Super\Temp\bits.h" />
+    <ClInclude Include="Super\Temp\epoll.h" />
+    <ClInclude Include="Super\Temp\identity.h" />
+    <ClInclude Include="Super\Temp\inplace.h" />
+    <ClInclude Include="Super\Temp\nullptr.h" />
+    <ClInclude Include="Super\Temp\observer.h" />
+    <ClInclude Include="Super\Temp\optional.h" />
+    <ClInclude Include="Super\Temp\placement.h" />
+    <ClInclude Include="Super\Temp\ref_counter.h" />
+    <ClInclude Include="Super\Temp\safe_equal.h" />
+    <ClInclude Include="Super\Temp\scoped_exit.h" />
+    <ClInclude Include="Super\Temp\scoped_unref.h" />
+    <ClInclude Include="Super\Temp\search.h" />
+    <ClInclude Include="Super\Temp\static_assert.h" />
+    <ClInclude Include="Super\Temp\status.h" />
+    <ClInclude Include="Super\Temp\uncloneable.h" />
+    <ClInclude Include="Super\Temp\unique_function.h" />
+    <ClInclude Include="Super\Temp\unitest.h" />
+    <ClInclude Include="Super\Tool\Color.h" />
+    <ClInclude Include="Super\Tool\Color_p.h" />
+    <ClInclude Include="Super\Tool\CopyFileByThread.h" />
+    <ClInclude Include="Super\Tool\Line.h" />
+    <ClInclude Include="Super\Tool\Margins.h" />
+    <ClInclude Include="Super\Tool\Point.h" />
+    <ClInclude Include="Super\Tool\Rect.h" />
+    <ClInclude Include="Super\Tool\RGB.h" />
+    <ClInclude Include="Super\Tool\SDL_PlayAV.h" />
+    <ClInclude Include="Super\Tool\Size.h" />
+    <ClInclude Include="Super\Tool\StackWalker.h" />
+    <ClInclude Include="Super\Tool\STLHelper.h" />
+    <ClInclude Include="Super\Tool\TimedTask.h" />
+    <ClInclude Include="Super\Tool\unzip.h" />
+    <ClInclude Include="Super\Tool\zip.h" />
+    <ClInclude Include="Super\Tool\ZipHelper.h" />
+    <ClInclude Include="Temp.h" />
+    <ClInclude Include="Variant.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Super\Basic\double_integer_p.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

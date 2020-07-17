@@ -1,0 +1,9 @@
+串联线程测试完善；
+
+
+//未实现函数链接错误提示，只能在外部用宏控制，只声明不实现，用到自然链接错误
+void linkerrErrorCall();
+void testLink()
+{
+    linkerrErrorCall();
+}

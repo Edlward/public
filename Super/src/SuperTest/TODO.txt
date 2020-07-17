@@ -1,0 +1,19 @@
+﻿
+//ThreadEx
+
+
+//相当于函数重载，改进待续
+template<typename T>
+struct Identity 
+{ 
+    typedef T type; 
+
+    Identity(){}
+    ~Identity(){}
+    char tmp;  //nouse
+};
+void copyData(T* dst,const T* src,size_t size)
+{
+    copyData_Impl(dst,src,size,Identity<TypeTraits<T>::PODTYPE>);
+}
+

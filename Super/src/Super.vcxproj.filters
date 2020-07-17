@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Basic">
+      <UniqueIdentifier>{46a269af-9c3c-4cd0-bce2-4556341d1520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Net">
+      <UniqueIdentifier>{a8aee420-b84e-4256-b959-e13f37f0a7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DIP">
+      <UniqueIdentifier>{70db6a8c-a361-47c3-b2e6-4790e6fd4f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStruct">
+      <UniqueIdentifier>{f62ab0bd-c9e7-4ea4-bf7b-885e06580722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Temp">
+      <UniqueIdentifier>{dcb61593-ab4e-443e-97f0-5a7e0ba18613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Frame">
+      <UniqueIdentifier>{6fedad18-70fe-4424-8491-277a68fd36f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tool">
+      <UniqueIdentifier>{b371ee59-a313-4fac-91e3-5583ccbdb55d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Super\toBeAdded_待添加.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\AudioCodec.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\AudioHelper.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\BasicOperation.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\BsaeType.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ByteArray.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ConfigFile.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\FIFO.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\FileCopy.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\global.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Int24.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\IPAddress.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Log.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\MediaTimer.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\MemoryPool.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\MessageQueue.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\NetStream.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Noise.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\PerformanceTest.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\PID.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ProcessGuard.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\RefCount.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ShareMemory.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SIMD.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Singleton.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SmartPointer.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SP_uuid.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SString.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SuperSocket.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SuperTime.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SystemCtrl.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Temp.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Test_Basic.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Thread.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ThreadSync.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Timer.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\NetServerBase.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\TcpClientBase.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\TcpServerBase.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\TcpServerByEPOLL.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\TcpServerByIOCP.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\TcpServerByMultiThread.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\TcpServerBySelect.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\ThreadClientSocket.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Net\zSocket.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\AVLTree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\B_tree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\BinarySearchTree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\BPlusTree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Btree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Czip.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\DES.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Graph.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Hash.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Heap.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Huffman.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\List.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\local_string.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\LZ77.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\LZW.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\NormalTree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\NormalTree2.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\ObjectCount.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Queue.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\RedBlacktree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\RSA.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Search.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Sort.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\SplayTree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Stack.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\StaticList.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\StringPatternMatch.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\ThreadTree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Tree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\TrieTree.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Vector.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Rand.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\MemPoolFast.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Map.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\DataStruct\Array.cpp">
+      <Filter>源文件\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\MemAlloc.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\BigInt.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Int128.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Tstring.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Allocator.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\FastList.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\FastMap.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\FastString.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\FastVector.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Base64.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Reflection.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Mem.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Math.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\8bigInt.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\BigFloat.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\A_NewClassTemplate.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Trains.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\BER.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Any.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Variant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ScopedPointer.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ScopedValueRollback.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\SharedData.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ScopeGuard.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\A_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\inplace.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\observer_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\optional.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\optional_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\placement_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\ref_counter_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\safe_equal_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\scoped_exit_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\scoped_unref.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\search_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\unique_function_test.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\bits.cpp">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\nullptr.cpp">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\Atomic.cpp">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\unitest.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Temp\epoll.cc">
+      <Filter>源文件\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\Tools.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\ThreadEx.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\MyCLib.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Frame\ParallelFrame.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Frame\SequentialFrame.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Frame\ThreadPool.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Frame\ThreadSafeQueue.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Frame\ThreadPoolBase.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Frame\ThreadFrame_Test.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\Color.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\Color_p.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\CopyFileByThread.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\Line.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\Margins.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\Point.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\Rect.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\SDL_PlayAV.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\Size.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\StackWalker.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\STLHelper.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\TimedTask.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\unzip.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\zip.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Tool\ZipHelper.cpp">
+      <Filter>源文件\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\TinyStr.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\TinyXML.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\BitIO.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\RapidXML_Test.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\TinyXML2.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Super\Basic\TinyXML2_Test.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Super\Basic\AudioCodec.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\AudioHelper.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\BasicOperation.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\BsaeType.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ByteArray.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ConfigFile.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Console.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\define.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Directory.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\FIFO.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\File.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\FileCopy.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\global.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Int24.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\IPAddress.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Log.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\MediaTimer.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\MemoryPool.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\MessageQueue.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\MyAutoPtr.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\NetStream.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Noise.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\PerformanceTest.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\PID.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ProcessGuard.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Protocol.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\RefCount.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ShareMemory.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SIMD.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Singleton.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\smart_ptr.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SmartPointer.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SP_uuid.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SString.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\StringConvert.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SuperSocket.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SuperTime.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SystemCtrl.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Temp.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Test_Basic.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Thread.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ThreadSync.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Timer.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\NetServerBase.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\TcpClientBase.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\TcpServerBase.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\TcpServerByEPOLL.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\TcpServerByIOCP.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\TcpServerByMultiThread.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\TcpServerBySelect.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\ThreadClientSocket.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Net\zSocket.h">
+      <Filter>源文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\AVLTree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\B_tree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\BinarySearchTree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\BPlusTree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Btree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Czip.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\DES.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Graph.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Hash.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Heap.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Huffman.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\List.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\local_string.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\LZ77.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\LZW.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\NormalTree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\NormalTree2.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\ObjectCount.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Queue.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\RedBlacktree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\RSA.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Search.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Sort.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\SplayTree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Stack.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\StaticList.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\StringPatternMatch.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\ThreadTree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Tree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\TrieTree.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Vector.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Rand.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\MemPoolFast.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Map.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\DataStruct\Array.h">
+      <Filter>源文件\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\MemAlloc.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\BigInt.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Int128.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ThreadSync.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ShareMemory.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Tstring.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Allocator.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\FastList.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\FastMap.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\FastString.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\FastVector.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Base64.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Reflection.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Mem.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\sigslot.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Math.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\8bigInt.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\BigInteger.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\double_integer.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\int128.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\int256.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\int512.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\BigFloat.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\A_NewClassTemplate.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Trains.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\BER.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Any.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Variant.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ScopedPointer.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ScopedValueRollback.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ScopeGuard.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\SharedData.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\A_Test.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\bits.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\identity.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\inplace.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\nullptr.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\observer.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\optional.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\placement.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\ref_counter.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\safe_equal.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\scoped_exit.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\scoped_unref.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\search.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\static_assert.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\status.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\uncloneable.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\unique_function.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\Atomic.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\unitest.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Temp\epoll.h">
+      <Filter>源文件\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\Tools.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\ThreadEX.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\MyCLib.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Frame\ParallelFrame.h">
+      <Filter>源文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Frame\SequentialFrame.h">
+      <Filter>源文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Frame\ThreadPool.h">
+      <Filter>源文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Frame\ThreadSafeQueue.h">
+      <Filter>源文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Frame\ThreadPoolBase.h">
+      <Filter>源文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Frame\ThreadFrame_Test.h">
+      <Filter>源文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\Color.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\Color_p.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\CopyFileByThread.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\Line.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\Margins.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\Point.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\Rect.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\RGB.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\SDL_PlayAV.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\Size.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\StackWalker.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\STLHelper.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\TimedTask.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\unzip.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\zip.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Tool\ZipHelper.h">
+      <Filter>源文件\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\TinyStr.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\TinyXML.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\BitIO.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\RapidXML.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\RapidXML_iterators.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\RapidXML_print.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\RapidXML_utils.hpp">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Super\Basic\TinyXML2.h">
+      <Filter>源文件\Basic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Super\Basic\double_integer_p.h">
+      <Filter>源文件\Basic</Filter>
+    </None>
+  </ItemGroup>
+</Project>
